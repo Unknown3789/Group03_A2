@@ -20,9 +20,7 @@ a:focus {
 p {
 	margin-top: 20px;
 	margin-bottom: 20px;
-	text-align: justify;ss
-Fix :hover and :focus styles
-7 days ago
+	text-align: justify;
 }
 
 /* IDs and Classes */
@@ -54,7 +52,9 @@ Fix :hover and :focus styles
 }
 
 .navbar-links {
-	display: block;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 	width: 100%;
 	position: absolute;
 	top: 0;
@@ -67,7 +67,6 @@ Fix :hover and :focus styles
 
 .navbar-links li {
 	display: block;
-	float: left;
 }
 
 .navbar-links a {
@@ -88,11 +87,6 @@ Fix :hover and :focus styles
 .navbar-links a:hover,
 .navbar-links a:focus {
 	background-color: #222;
-}
-
-.navbar-links .active {
-	background-color: #444;
-	font-weight: bold;
 }
 
 .section-1 {
@@ -261,10 +255,6 @@ Fix :hover and :focus styles
 	#mobile-nav:checked ~ .navbar-links {
 		display: block;
 		padding-top: 60px;
-	}
-
-	#mobile-nav:checked ~ .navbar-links > li {
-		float: none;
 	}
 
 	.navbar-links {
