@@ -36,6 +36,11 @@ li {
 	line-height: 1.4;
 }
 
+img {
+	max-width: 100%;
+	height: auto;
+}
+
 /* IDs and Classes */
 #mobile-nav {
 	display: none;
