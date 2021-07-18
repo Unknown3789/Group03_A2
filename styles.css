@@ -118,13 +118,12 @@ p {
 	padding-left: 100px;
 	padding-right: 100px;
 	box-sizing: border-box;
-	background-color: #f9f9f9;
 }
 
 .section-title {
-	margin-top: 0;
-	margin-bottom: 80px;
+	margin: 0;
 	padding-top: 80px;
+	padding-bottom: 40px;
 }
 
 .section-link {
