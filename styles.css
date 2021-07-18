@@ -26,6 +26,13 @@ p {
 	word-break: break-word;
 }
 
+p::before,
+p::after {
+	display: table;
+	content: "";
+	clear: both;
+}
+
 ul {
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -273,6 +280,20 @@ img {
 
 	.job-post:nth-child(odd) {
 		clear: both;
+	}
+
+	.left {
+		max-width: 50%;
+		margin-right: 20px;
+		margin-bottom: 20px;
+		float: left;
+	}
+
+	.right {
+		max-width: 50%;
+		margin-left: 20px;
+		margin-bottom: 20px;
+		float: right;
 	}
 }
 
