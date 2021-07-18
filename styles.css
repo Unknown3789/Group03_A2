@@ -26,6 +26,16 @@ p {
 	word-break: break-word;
 }
 
+ul {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 40px;
+}
+
+li {
+	line-height: 1.4;
+}
+
 /* IDs and Classes */
 #mobile-nav {
 	display: none;
@@ -70,6 +80,7 @@ p {
 
 .navbar-links li {
 	display: block;
+	line-height: normal;
 }
 
 .navbar-links a {
