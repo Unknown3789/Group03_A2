@@ -316,7 +316,9 @@ img {
 		display: none;
 	}
 
-	.job-post {
+	.job-post,
+	.left,
+	.right {
 		margin-bottom: 20px;
 	}
 }
