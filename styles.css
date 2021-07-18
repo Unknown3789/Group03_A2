@@ -247,6 +247,28 @@ img {
 	background-color: #bbb;
 }
 
+.float-container {
+	margin-bottom: 40px;
+}
+
+.float-container::before,
+.float-container::after {
+	display: table;
+	content: "";
+	clear: both;
+}
+
+.job-post {
+	width: 45%;
+	margin-right: 5%;
+	margin-bottom: 5%;
+	float: left;
+}
+
+.job-post:nth-child(odd) {
+	clear: both;
+}
+
 /* Media rules */
 @media screen and (min-width: 640px) {
 	#navbar-toggle {
