@@ -21,6 +21,9 @@ p {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	text-align: justify;
+	line-height: 1.2;
+	white-space: normal;
+	word-break: break-word;
 }
 
 /* IDs and Classes */
@@ -114,6 +117,9 @@ p {
 }
 
 .section {
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
 	position: relative;
 	padding-left: 100px;
 	padding-right: 100px;
